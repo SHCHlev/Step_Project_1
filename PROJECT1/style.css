@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Asul&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@150&display=swap');
+
+.first-page {
+    background-image: url("./images/tyler-nix-1fJxaZ3fcNs-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 967px;
+    position: relative;
+}
+
+.first-page_search {
+    width: 40px;
+    height: 40px;
+}
+
+.first-page_sale {
+    color: white;
+}
+
+.center_title {
+    color: white;
+}
+
+.the_title {
+    font-size: 48px;
+    font-family: 'Asul', sans-serif;
+    text-align: center;
+    padding-bottom: 10px;
+    letter-spacing: 10px;
+}
+
+.the_subtitle {
+    font-family: 'Almarai', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.top_text {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 330px 1fr;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.right_subtitles {
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    gap: 100px;
+    padding-top: 7px;
+    justify-content: right;
+    padding-right: 22px;
+}
+
+.left_subtitles {
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    gap: 65px;
+    padding-left: 22px;
+    padding-top: 7px;
+}
+
+.first-page_sale {
+    position: absolute;
+    left: 138px;
+    bottom: 146px;
+    max-width: 440px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sale_title {
+    font-family: 'Jomhuria', cursive;
+    font-size: 96px;
+    line-height: 65px;
+}
+
+.sale {
+    font-size: 28px;
+}
+
+.sale_description {
+    font-size: 24px;
+}
+
+.sale_start {
+    font-size: 30px;
+}
+
+.second_page {
+    padding: 78px 40px;
+}
+
+.second_images_item img {
+    width: 597px;
+    height: 884px;
+}
+
+.second_images {
+    display: flex;
+    gap: 18px;
+}
+
+.second_images_item {
+    position: relative;
+}
+
+.second_images_text {
+    position: absolute;
+    text-align: center;
+    bottom: 17px;
+    left: 68px;
+}
+
+.second_images_text h3 {
+    font-size: 24px;
+}
+
+.second_images_text h4 {
+    font-size: 36px;
+    margin-top: 12px;
+    margin-bottom: 26px;
+}
+
+.second_images_text h5 {
+    font-size: 36px;
+}
+
+.second_images_item.text {
+    gap: 50px;
+    display: flex;
+    margin-top: 300px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.second_images_item.text h3 {
+    font-size: 24px;
+}
+
+.second_images_item.text h4 {
+    font-size: 36px;
+    font-family: 'Ibarra Real Nova', serif;
+    margin-bottom: 10px;
+}
+
+.second_images_item.text h5 {
+    font-size: 36px;
+}
+
+.second_images_item.text h6 {
+    font-size: 36px;
+}
+
+.second_images_item.text img{
+    width: 30px;
+    height: 30px;
+    margin: 0px 297px;
+}
+
+.second_images_item.nao {
+    display: flex;
+    flex-direction: column;
+    margin-top: 52px;
+    gap: 10px;
+}
+
+.third_page_left img {
+    width: 50px;
+    height: 50px;
+}
+
+.third_page_left h1 {
+    font-size: 36px;
+    font-family: 'Asul', sans-serif;
+    padding-top: 230px;
+}
+
+.third_page_left h2 {
+    font-size: 20px;
+    font-family: 'Almarai', sans-serif;
+    padding-top: 21px;
+}
+
+.Main {
+    height: 701px;
+    width: 570px;
+}
+
+.Mini_images {
+    width: 300px;
+    height: 330px;
+    gap: 41px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.third-page {
+    display: flex;
+    gap: 34px;
+    padding: 10px 40px;
+}
+
+.footer_sign-up {
+    background: #4A4848;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 40px;
+}
+
+.footer {
+    margin: 160px 40px;
+}
+
+.footer_sign-up__text {
+    color: #C7C7C7;
+    font-size: 24px;
+}
+
+.footer_sign-up__link {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.footer_sign-up__link1 {
+    color: white;
+    text-decoration: none;
+    font-size: 28px;
+}
+
+.down_links {
+    display: flex;
+    flex-direction: row;
+    gap: 75px;
+    padding-top: 104px;
+}
+
+.down_link-titles {
+    display: flex;
+    flex-direction: column;
+    gap: 39px;
+}
+
+.down_link-title {
+    font-size: 24px;
+}
+
+.down_link-links {
+    display: grid;
+    font-size: 24px;
+    gap: 39px;
+    font-family: 'Inter', sans-serif;
+}
+
+.footer_header {
+    padding-top: 213px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_ceremony {
+    font-size: 48px;
+    font-family: 'Asul', sans-serif;
+    letter-spacing: 10px;
+}
+
+.footer_ceremony_down {
+    font-size: 24px;
+}
+
+.footer_coffee {
+    font-family: 'Asul', sans-serif;
+    font-size: 40px;
+    max-width: 900px;
+    letter-spacing: 10px;
+    color: rgba(0,0,0,0.2)
+}
+
+.media_images img {
+    width: 40px;
+    height: 40px;
+}
+
+.footer_right {
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    gap: 33px;
+}
+
+.footer_right h1 {
+    color: rgba(0,0,0,0.5)
+}
+
+.gift_cards {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+
+.social_media {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+
+.footer_right-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+}
